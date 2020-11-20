@@ -1,0 +1,161 @@
+/* Great website to learn more designs and idea for front end designs and layouts - https://www.frontendmentor.io/ */
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive; 
+}
+
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: 0;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+
+.footer-link {
+    color: #11999E;
+    font-family: 'Montserrat', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+/* this css below (sudoclass) will make the footer links change color when the mouse hovers over them. Very good tool to use! */
+
+.footer-link:hover {
+    color: #eaf6f6;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.top-container {
+    background-color: #e8ffff;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px auto;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.footer-link{
+    color: #11999e;
+
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.computer-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chillies {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/* Create a button here - https://cssbuttongenerator.com/ */
+.btn {
+	-moz-box-shadow: 0px 0px 0px 0px #f5f9fa;
+	-webkit-box-shadow: 0px 0px 0px 0px #f5f9fa;
+	box-shadow: 0px 0px 0px 0px #f5f9fa;
+	background-color:#11999e;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:168px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px -1px 0px #fcfcfc;
+}.btn:hover {
+	background-color:#11cdd4;
+}.btn:active {
+	position:relative;
+    top:1px;
+}
